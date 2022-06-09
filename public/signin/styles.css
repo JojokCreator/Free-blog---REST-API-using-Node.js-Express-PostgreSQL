@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h2 {
+  color: #87629A;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase; 
+  color: #23424A;
+  font-weight: 900;
+  background-color: #515081;
+  padding: .75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .75; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 30px;
+}
+header {
+  background: #515081;
+  padding: 0.5em 0;
+  min-width: 400px;
+}
+
+.logo{
+  margin-right: 1em;
+  align-self: center;
+}
+
+a {
+  align-items: center;
+}
+
+.nav__list--primary{
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.nav__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .7rem;
+  padding: 1em;
+}
+
+.nav__item + nav__item {
+  margin-left: 1em;
+  font-size: 2em;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: .25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: .75;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #515081;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #585783;;
+}
+
+
