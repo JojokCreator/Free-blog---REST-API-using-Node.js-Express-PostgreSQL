@@ -1,0 +1,60 @@
+Field names for users table = 
+user_id,
+first_name,
+last_name,
+email_address, password.
+
+Second posts table = 
+post_id, 
+post_title, 
+post_body, 
+date, 
+user_id.
+
+Create database scripts
+- createUsersTable
+- populateUsersTable
+-createPostsTable
+-populatePostsTable
+-dropUsersTable
+-dropPostsTable
+
+Create a link to the database.
+- create env file and fill credentials
+- create index.js
+- import pg from pg
+- export the query from file.
+
+create routes file 
+- import express and router
+- create routes
+
+- create app.js file app.use
+- import the routes
+
+- GET users
+-POST users
+-PATCH users
+-DELETE users
+- GET search by user_id/email_address?
+
+- GET posts
+-POST posts
+-PATCH posts
+-DELETE posts
+- GET search by post_id/date?
+
+Models
+- GET users
+-POST users
+-PATCH users
+-DELETE users
+- GET search by user_id/email_address?
+
+- GET posts
+-POST posts
+-PATCH posts
+-DELETE posts
+- GET search by post_id/date?
+
+- export named functions to be used in routes.
